@@ -174,7 +174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23a41a9f513334246903d0992eca2d69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paintables: []
   OnPointerDown:
     m_PersistentCalls:
       m_Calls: []
@@ -194,7 +193,8 @@ MonoBehaviour:
   currentTex: {fileID: 0}
   layerData: []
   currPM: {fileID: 0}
-  regPM: {fileID: 351126056}
+  regPM: []
+  rate: 0.5
 --- !u!1 &73923279
 GameObject:
   m_ObjectHideFlags: 0
